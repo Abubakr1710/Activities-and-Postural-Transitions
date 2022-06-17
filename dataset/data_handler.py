@@ -4,7 +4,7 @@ import os
 np.random.seed(0)
 
 
-def train_test_split(rawDataFolder='RawData', train_size=0.7):
+def train_test_split(rawDataFolder='dataset/RawData', train_size=0.7):
 
     # read file containing infos about experimentID, userID, label(activity), start and end of sequence
     col_names = ['exp', 'user', 'label', 'start', 'end']
